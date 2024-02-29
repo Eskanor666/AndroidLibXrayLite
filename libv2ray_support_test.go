@@ -1,4 +1,4 @@
-package libv2ray
+package dsv2ray
 
 import (
 	"bufio"
