@@ -50,6 +50,6 @@ jobs:
     - name: Upload AndroidLibXrayLite to release
       uses: svenstaro/upload-release-action@v2
       with:
-        file: ./libv2ray*r
+        file: ./dsv2ray*r
         tag: ${{ github.event.inputs.release_tag }}
         file_glob: true
